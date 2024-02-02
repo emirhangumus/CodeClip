@@ -2,6 +2,7 @@ export type State = {
     number_of_slides: number;
     current_slide: string | null;
     slides: Slide[];
+    mode: 'edit' | 'present';
 }
 
 export type Slide = {
